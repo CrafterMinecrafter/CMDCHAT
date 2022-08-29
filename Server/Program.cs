@@ -14,7 +14,7 @@ namespace CMDCHAT
     {
         static void Main(string[] args)
         {
-            var wssv = new WebSocketServer(IPAddress.Parse("26.22.168.32"),7777);
+            var wssv = new WebSocketServer(7777);
             wssv.AddWebSocketService<Chat>("/Chat");
             wssv.Start();
             Console.ReadKey(true);

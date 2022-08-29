@@ -19,7 +19,7 @@ namespace CMDCHAT
             nickname = await Task.FromResult(Console.ReadLine());
             Console.WriteLine("connecting...");
 
-            using (var ws = new WebSocket("ws://26.22.168.32:7777/Chat"))
+            using (var ws = new WebSocket("ws://localhost:7777/Chat"))
             {
                 ws.OnMessage += (sender, e) =>
                 {

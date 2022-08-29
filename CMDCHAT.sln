@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMDCHAT", "CMDCHAT\CMDCHAT.csproj", "{C097CD80-8562-4916-9119-47ADAA1C6197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{F37A2485-8F28-4152-8BE7-F162F53C2650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatUtilsLib", "ChatUtilsLib\ChatUtilsLib.csproj", "{E4FF981B-D734-49C2-8C34-919420929CA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C097CD80-8562-4916-9119-47ADAA1C6197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C097CD80-8562-4916-9119-47ADAA1C6197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C097CD80-8562-4916-9119-47ADAA1C6197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C097CD80-8562-4916-9119-47ADAA1C6197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37A2485-8F28-4152-8BE7-F162F53C2650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37A2485-8F28-4152-8BE7-F162F53C2650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37A2485-8F28-4152-8BE7-F162F53C2650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37A2485-8F28-4152-8BE7-F162F53C2650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FF981B-D734-49C2-8C34-919420929CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FF981B-D734-49C2-8C34-919420929CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FF981B-D734-49C2-8C34-919420929CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FF981B-D734-49C2-8C34-919420929CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44BD2642-67C9-4C5C-AFF4-E2E05DFEDF2D}
+	EndGlobalSection
+EndGlobal
